@@ -31,4 +31,4 @@ st.text_input(label="",placeholder="Add a To-Do",on_change=add_todo,key="new_tod
 
 
 #To Print the session for debugging
-st.session_state
+#st.session_state
