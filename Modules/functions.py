@@ -21,9 +21,9 @@ def read_txt_file(filepath=FILEPATH):    #default argument
 
 
 #Write todo list in file
-def write_txt(list_var):
+def write_txt(list_var,filepath=FILEPATH):
     """For Writing text file with list_var list"""
-    with open(FILEPATH, 'w') as file:
+    with open(filepath, 'w') as file:
         file.writelines(list_var)
 
 
